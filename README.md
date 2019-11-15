@@ -17,6 +17,8 @@ This game is created using Unity C#. The aim of the game is to control Snoopy by
 3. Snoopy will do the correct pose
 4. The gate will pass thorugh Snoopy safely
 
+Video of Playing the Game: **https://www.youtube.com/watch?v=dteUYIC9xf8**
+
 ## Download and Setup
 [Download APK](https://drive.google.com/open?id=1OlmOLiPiV_8hWz28bV9pCWCmoL3Cf5tO)
 
