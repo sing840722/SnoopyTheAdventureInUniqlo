@@ -43,6 +43,9 @@ To Run the Project:
 
 ### Skinned Animation
 `SnoopyAnimationController.cs`
+* The skinned animation is attached on the Character
+* The script select which animation to play
+* Then rotate the character
 
 ### Scene Transition
 `SceneManager.cs`
