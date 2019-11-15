@@ -14,7 +14,7 @@ This game is created using Unity C#. The aim of the game is to control Snoopy by
 ![image](https://user-images.githubusercontent.com/9387781/68905062-cea90300-0737-11ea-9ed3-00e78c37de2e.png)
 1. Read the Arrow Signs on the ground
 2. Draw on the screen the direction of the Arrow Signs
-3. Snoopy will perform the correct pose
+3. Snoopy will do the correct pose
 4. The gate will pass thorugh Snoopy safely
 
 ## Download and Setup
@@ -30,9 +30,14 @@ To Run the Project:
 ## Implementation
 ### Game Logic
 `GameMode.cs`
+* Spawn random printer automatically
+* Spawn a set of random arrow sign
+* Constantly add score when Snoopy is alive
 
 ### Gesture Recognition
 `SwipeHandler.cs`
+* Determine if the swipe a straight line by checking the Gradient between Initial Touch Position and End Position
+* Determine which direction the swipe is by comparing the Inital Touch Position and End Position
 
 ### Skinned Animation
 `SnoopyAnimationController.cs`
@@ -40,14 +45,23 @@ To Run the Project:
 ### Scene Transition
 `SceneManager.cs`
 
+Only One-way Scene Transition:
+1. Menu -> Level
+2. Level -> Gameover
+3. Gameover -> Menu
+
+A switch method based on the current scene and is called when a touch is made
+
 ### SFX & BGM
-``
-PlaySoundThenLoad
-audio.Play();
+`Printer.cs`
+* Using the Unity function StartCoroutine to Play a Sound Then Load level
+* Load and Play audio
 
 ### High Score
 `ScoreHandler.cs`
-The highscore is only stored in game instant, not in external file
+* Constantly update the UI Score
+* Record the new high score if current score is higher then history
+The highscore is only stored in game instant, not in external file.
 
 ## Reference
 1. Menu BGM taken from: `https://www.youtube.com/watch?v=x6zypc_LhnM`
