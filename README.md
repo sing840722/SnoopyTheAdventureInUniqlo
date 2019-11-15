@@ -1,10 +1,10 @@
 # SnoopyTheAdventureInUniqlo
 ## Table of Content
-* [Introduction](Introduction)
-* [Gameplay](Gameplay)
-* [Download/Setup](Download/Setup)
-* [Implementation](Implementation)
-* [Reference](Reference)
+* [Introduction](#introduction)
+* [Gameplay](#gameplay)
+* [Download/Setup](#download-and-setup)
+* [Implementation](#implementation)
+* [Reference](#reference)
 
 ## Introduction
 This game is created using Unity C#. The aim of the game is to control Snoopy by following the arrow signs so that he will do the right pose and let the gate pass thorugh him safely.
@@ -17,14 +17,14 @@ This game is created using Unity C#. The aim of the game is to control Snoopy by
 3. Snoopy will perform the correct pose
 4. The gate will pass thorugh Snoopy safely
 
-## Download/Setup
+## Download and Setup
 [Download APK](https://drive.google.com/open?id=1OlmOLiPiV_8hWz28bV9pCWCmoL3Cf5tO)
 
 To Run the Project: 
-1. Clone this git repository
+1. Clone this git repository ``https://github.com/sing840722/SnoopyTheAdventureInUniqlo.git``
 2. Open Unity
 3. Select Open Project
-4. Select the project folder `~/SnoopyTheAdventureInUniqlo`
+4. Select the project folder ``~/SnoopyTheAdventureInUniqlo``
 5. Click Open
 
 ## Implementation
