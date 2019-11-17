@@ -1,5 +1,6 @@
 # SnoopyTheAdventureInUniqlo
 ![image](https://user-images.githubusercontent.com/9387781/69010672-caf4c680-0959-11ea-8212-60b19208d340.png)
+![image](https://user-images.githubusercontent.com/9387781/69010743-8a497d00-095a-11ea-9c7b-f4194ac25602.png)
 ![image](https://user-images.githubusercontent.com/9387781/69010729-52dad080-095a-11ea-9412-78a875addd9f.png)
 
 ## Table of Content
