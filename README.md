@@ -11,11 +11,14 @@
 * [Reference](#reference)
 
 ## Introduction
-This game is created using Unity C#. The aim of the game is to control Snoopy by following the arrow signs so that he will do the right pose and let the gate pass thorugh him safely.
+This game is created using Unity C# with a mock scenrio where I am responsible to create a game for Uniqlo to promo their new collection  "KAWS x PEANUTS". 
 
 ## Gameplay
 ![image](https://user-images.githubusercontent.com/9387781/68892906-ea9eab80-071b-11ea-91b9-a39be4abb5c9.png)
 ![image](https://user-images.githubusercontent.com/9387781/68905062-cea90300-0737-11ea-9ed3-00e78c37de2e.png)
+
+The game is to control Snoopy by following the arrow signs so that he will do the right pose and let the gate pass thorugh him safely.
+
 1. Read the Arrow Signs on the ground
 2. Draw on the screen the direction of the Arrow Signs
 3. Snoopy will do the correct pose
