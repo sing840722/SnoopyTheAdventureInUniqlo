@@ -6,7 +6,7 @@
 ## Table of Content
 * [Introduction](#introduction)
 * [Gameplay](#gameplay)
-* [Download](#download-and-setup)
+* [Download](#download)
 * [Run the Project](#run-the-project)
 * [Reference](#reference)
 
